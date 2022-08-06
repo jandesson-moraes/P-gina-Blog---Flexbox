@@ -1,0 +1,131 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho{
+    color: grey;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: 20px;
+}
+
+.caixaEsquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 800px;
+    height: 810px;
+    padding-left: 70px;
+    margin: 0 auto;
+}
+
+.caixaDireita{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    background-color: darkmagenta;
+    width: 298px;
+    height: 742px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.artigo01{
+    width: 287px;
+    height: 343px;
+    margin: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.espacoP{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 24px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.caixaDireita{
+    background-color: rgb(218, 218, 218);
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 750px;
+    border-radius: 20px;
+}
+
+.recentsPosts{
+    margin: 0 auto;
+}
+
+.popularPosts{
+    padding-bottom: 170px;
+}
+
+.imagemAoLado{
+    display: flex;
+    align-items: center;
+}
+
+.imagemAoLado :hover{
+    background-color: rgba(62, 62, 62, 0.297);
+}
+
+.poste01{
+    display: flex;
+    align-items: center;
+}
+
+.footers {
+    background-color: #0D0D0E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 100px;
+}    
+
+.seeNews{
+    color: #F3F4F5;
+    padding-right: 0 auto;
+}
+
+.redesSociais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    padding-left: 250px;
+}
